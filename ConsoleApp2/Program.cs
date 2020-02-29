@@ -12,46 +12,31 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
-namespace ConsoleApp2
+namespace AkvelonTask
 {
     class Result
     {
         public static void Print(List<string> data)
         {
-            List<Employee> bosses = new List<Employee>();
+            List<Employee> managers = new List<Employee>();
             foreach (var d in data) 
             {
                 var arr = d.Split(',');
-                var boss = new Employee(arr[0], true);
-                bosses.Add(boss);
+                var manager = new Employee(arr[0]);
+                managers.Add(manager);
                 for (int i = 1; i < arr.Length; i++) 
                 {
-                    boss.Subs.Add(new Employee(arr[i], false));
+                    manager.Subs.Add(new Employee(arr[i]));
                 }
             }
 
-            foreach (var boss in bosses) 
+            foreach (var manager in managers) 
             {
-                WhoIsTheBoss(boss, bosses);
+                manager.FindSubs(managers);
             }
 
-            var superBoss = bosses.FirstOrDefault(x => x.Level == 1);
+            var superBoss = managers.FirstOrDefault(x => x.IsBoss);
             Print(0, superBoss);
-        }
-
-        public static void WhoIsTheBoss(Employee emp, List<Employee> bosses)
-        {
-            foreach (var boss in bosses)
-            {
-                var tempEmp = boss.Subs.FirstOrDefault(x => x.Title == emp.Title);
-                if (tempEmp != null) 
-                {
-                    boss.Subs.Remove(tempEmp);
-                    boss.Subs.Add(emp);
-                    return;
-                }
-            }
-            emp.Level = 1;
         }
 
         public static void Print(int i, Employee emp)
@@ -65,21 +50,6 @@ namespace ConsoleApp2
             {
                 Print(i + 4, sub);
             }
-        }
-    }
-
-    class Employee
-    {
-        public string Title { get; set; }
-        public bool IsBoss { get; set; }
-        public List<Employee> Subs { get; set; }
-        public int Level { get; set; }
-
-        public Employee(string t, bool isBoss)
-        {
-            Title = t;
-            IsBoss = isBoss;
-            Subs = new List<Employee>();
         }
     }
 

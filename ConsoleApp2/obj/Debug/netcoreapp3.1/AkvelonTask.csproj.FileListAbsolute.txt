@@ -1,0 +1,11 @@
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\AkvelonTask.exe
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\AkvelonTask.deps.json
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\AkvelonTask.runtimeconfig.json
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\AkvelonTask.runtimeconfig.dev.json
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\AkvelonTask.dll
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\AkvelonTask.pdb
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\AkvelonTask.csprojAssemblyReference.cache
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\AkvelonTask.AssemblyInfoInputs.cache
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\AkvelonTask.AssemblyInfo.cs
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\AkvelonTask.dll
+C:\Users\Valera\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\AkvelonTask.pdb

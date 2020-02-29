@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Valera\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
-      "projectName": "ConsoleApp2",
-      "projectPath": "C:\\Users\\Valera\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectUniqueName": "C:\\Users\\Valera\\source\\repos\\ConsoleApp2\\ConsoleApp2\\AkvelonTask.csproj",
+      "projectName": "AkvelonTask",
+      "projectPath": "C:\\Users\\Valera\\source\\repos\\ConsoleApp2\\ConsoleApp2\\AkvelonTask.csproj",
       "packagesPath": "C:\\Users\\Valera\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Valera\\source\\repos\\ConsoleApp2\\ConsoleApp2\\obj\\",
       "projectStyle": "PackageReference",
